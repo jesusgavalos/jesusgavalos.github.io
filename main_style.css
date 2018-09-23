@@ -1,0 +1,162 @@
+body{
+  background-color:rgb(0, 0, 0);
+}
+
+#titlecontainer{
+  widht:100%;
+  margin:0 auto;
+}
+
+#titlebox h1{
+  text-align:center;
+  font-family: 'Notable', sans-serif;
+  color:rgb(0, 194, 228);
+}
+
+#titlebox h2{
+  text-align:center;
+  margin-top:-25px;
+  font-family: 'Bitter', serif;
+  color:rgb(255, 255, 255);
+}
+
+#randombutton{
+  width:100%;
+  margin:0 auto;
+}
+
+#randombox{
+  text-align:center;
+  margin-top:30px;
+}
+
+#photocontainer{
+  width:100%;
+  margin:0 auto;
+}
+
+#photobox{
+  text-align:center;
+}
+
+.smallimage{
+  display:none;
+}
+
+.smallimage2{
+  display:none;
+}
+
+.mediumimage{
+  display:none;
+}
+
+.randombutton{
+  border:0;
+  border-radius:5px;
+  background-color:rgb(0, 194, 228);
+  padding:5px 5px;
+  font-family: 'Bitter', serif;
+  color:rgb(255, 255, 255);
+  transition:background-color 0.2s;
+  -webkit-transition:background-color 0.2s;
+  -moz-transition:background-color 0.2s;
+  -o-transition:background-color 0.2s;
+}
+
+.randombutton:hover{
+  background-color:rgb(5, 129, 150);
+  cursor:pointer;
+}
+
+#disclaimercontainer{
+  width:100%;
+  margin:0 auto;
+}
+
+#disclaimerbox{
+  text-align:center;
+  color:rgb(255, 255, 255);
+  font-family: 'Bitter', serif;
+  font-size:15px;
+  margin-top:20px;
+}
+
+#disclaimerbox p a{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  font-family: 'Bitter', serif;
+  transition:color 0.2s;
+  -webkit-transition:color 0.2s;
+  -moz-transition:color 0.2s;
+  -o-transition:color 0.2s;
+}
+
+#disclaimerbox p a:hover{
+  text-decoration:none;
+  color:rgb(0, 194, 228);
+  font-family: 'Bitter', serif;
+}
+
+@media screen and (max-width:480px){
+  #titlebox h2{
+    font-size:18px;
+  }
+  #photocontainer{
+    width:97%;
+  }
+  .smallimage{
+    display:none;
+  }
+  .smallimage2{
+    display:none;
+  }
+  .mediumimage{
+    display:block;
+  }
+  .desktopimage{
+    display:none;
+  }
+}
+
+@media screen and (max-width:420px){
+  #titlebox h2{
+     font-size:18px;
+    }
+    #photocontainer{
+      width:99%;
+    }
+    .smallimage{
+      display:none;
+    }
+    .smallimage2{
+      display:block;
+    }
+    .mediumimage{
+      display:none;
+    }
+    .desktopimage{
+      display:none;
+    }
+}
+
+@media screen and (max-width:320px){
+  #titlebox h2{
+    font-size:18px;
+  }
+  #photocontainer{
+    width:99%;
+  }
+  .smallimage{
+    display:block;
+  }
+  .smallimage2{
+    display:none;
+  }
+  .mediumimage{
+    display:none;
+  }
+  .desktopimage{
+    display:none;
+  }
+}
