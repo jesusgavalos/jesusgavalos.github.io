@@ -1,8 +1,8 @@
-# jesusgavalos.github.io | Graphic Design Personal Portfolio
+# jesusgavalos.github.io | Graphic Design Personal Portfolio | Coming Soon
 
 This is a personal site for my portfolio. (Still working on it).
 All the files here are property of the owner of the repository.
 
 If you want use this template for you own website contact me at jgavalosd@gmail.com for more information.
 
-Jesús Avalos © 2018.
+Jesús Avalos © 2019.
