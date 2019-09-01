@@ -1,8 +1,6 @@
 # jesusgavalos.github.io | Graphic Design Personal Portfolio
 
-Coming soon!
-
-This is a personal site for my portfolio. (Still working on it).
+This is a personal site for my portfolio.
 All the files here are property of the owner of the repository.
 
 Meanwhile this host a little 20-minute project I called "Daily Image". Which is a website that shows you a random image.
