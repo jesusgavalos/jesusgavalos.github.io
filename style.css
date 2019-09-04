@@ -57,6 +57,10 @@ html, body{
   color:#D98F27;
 }
 
+.landing-text img{
+  margin-top:-100px;
+}
+
 .landing-text h1{
   font-weight:700;
   text-shadow:2px 2px rgba(0, 0, 0, 0.7);
