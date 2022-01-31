@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --fox-black:rgb(16, 24, 32);
+  --fox-red:rgb(125, 27, 73);
+  --fox-orange:rgb(182, 83, 62);
+  --fox-white:rgb(229, 225, 230);
+}
+
+body{
+  background-color:var(--fox-black);
+}
+
+hr{
+  color:var(--fox-black);
+}
+
+.main-body{
+  max-width:1000px;
+  height:auto;
+  padding:20px;
+  background-color:var(--fox-white);
+  margin-top:30px;
+  margin-bottom:30px;
+  border-radius:20px;
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px 0px #000000;
+}
+
+#pf-card{
+  margin-top:20px !important;
+}
+
+.pf-pic{
+  width:200px;
+  height:200px;
+  border-radius:200px;
+  background:url(img/pf-pic.png);
+  margin-top:20px;
+  margin-bottom:20px;
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.pf-text{
+  font-family: 'Signika Negative', sans-serif;
+  color:var(--fox-black);
+  padding-left:50px;
+  padding-right:30px;
+}
+
+.pf-text h2{
+  font-weight:700;
+}
+
+.pf-text p{
+  font-size:10pt;
+  font-weight:400;
+  margin-bottom:0px;
+}
+
+.sn-icon-setup{
+  padding-right:10px;
+  font-size:25pt;
+  color:var(--fox-black);
+  text-align:center;
+}
+
+.sn-icon-setup:hover{
+  color:var(--fox-orange);
+  transition:color 0.2s;
+  cursor:pointer;
+}
+
+.ft-text{
+  font-family: 'Signika Negative', sans-serif;
+  color:var(--fox-black);
+  text-align:center;
+  font-size:14pt;
+}
+
+.ft-text h3{
+  font-weight:700;
+}
+
+.ft-work-setup{
+  font-family: 'Signika Negative', sans-serif;
+  padding:10px;
+}
+
+.ft-work-card{
+  color:var(--fox-white);
+  background-color:var(--fox-black);
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.ft-work h5{
+  font-weight:700;
+}
+
+.ft-button{
+  color:var(--fox-black);
+  background-color:var(--fox-white);
+  font-weight:600;
+  border:0;
+}
+
+.ft-button:hover{
+  background-color:var(--fox-orange);
+  transition:background-color 0.2s;
+  transition:color 0.2s;
+}
+
+.gallery-text{
+  font-family: 'Signika Negative', sans-serif;
+  color:var(--fox-black);
+  text-align:center;
+  font-size:14pt;
+}
+
+.gallery-text h3{
+  font-weight:700;
+}
+
+.gallery-container{
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  padding-bottom:13px;
+}
+
+.gallery-container img{
+  object-fit:cover;
+  width:100%;
+  height:100%;
+  border-radius:10px;
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.gallery-container a:hover{
+  filter:opacity(70%);
+  -webkit-filter:opacity(70%);
+  transition:filter 0.2s ease;
+}
+
+.footer-text{
+  font-family: 'Signika Negative', sans-serif;
+  font-weight:500;
+  font-size:11pt;
+  color:var(--fox-black);
+  text-align:center;
+}
+
+.footer-text p{
+  margin-bottom:0;
+}
+
+/* Media Query Start*/
+@media only screen and (max-width:1200px){
+  .gallery-container{
+    width:280px;
+    height:280px;
+  }
+}
+
+@media only screen and (max-width:991px){
+  .pf-text{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .gallery-container{
+    width:200px;
+    height:200px;
+    padding-bottom:10px;
+  }
+}
+
+@media only screen and (max-width:767px){
+  #pf-card, .pf-pic{
+    margin-top:0 !important;
+  }
+  .pf-text{
+    padding-left:30px;
+    padding-right:0px;
+  }
+  .pf-text h2{
+    text-align:center;
+  }
+
+  .sn-icons{
+    text-align:center;
+  }
+
+  .gallery-container{
+    width:145px;
+    height:145px;
+  }
+}
+
+@media only screen and (max-width:425px){
+  .pf-text{
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+  .gallery-container{
+    width:100px;
+    height:100px;
+  }
+}
+
+@media only screen and (max-width:375px){
+  .gallery-container{
+    width:85px;
+    height:85px;
+    padding-bottom:5px;
+  }
+}
+
+@media only screen and (max-width:360px){
+  .gallery-container{
+    width:85px;
+    height:85px;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .gallery-container{
+    width:65px;
+    height:65px;
+  }
+}
+
+@media only screen and (max-width:280px){
+  .gallery-container{
+    width:170px;
+    height:170px;
+  }
+}

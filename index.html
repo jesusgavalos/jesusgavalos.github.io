@@ -1,132 +1,240 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es-MX" dir="ltr">
 
-<!--
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Jesús Avalos | Diseño Gráfico</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="lightbox.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  </head>
 
-  Design and developed by Jesús Avalos.
-           Powered by GitHub.
-          ATOM.io all the way. 
+  <body>
 
--->
-
-<head>
-  <title>Jesús Avalos | Diseño gráfico y desarrollo web</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="ud5er4VIfsWwssdZCerBqT_afGej7KqQm80bFlYb-A4" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="lightbox-plus-jquery.js"></script>
-  <link href="style.css" rel="stylesheet" />
-  <link href="dailystyles.css" rel="stylesheet" />
-  <link href="lightbox.css" rel="stylesheet" />
-</head>
-
-<body>
-	
-  <nav class="navbar navbar-default navbar-fixed-top sticky-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button  type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-          <span class="sr-only">Menú</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://jesusgavalos.github.io/"><img src="img/brand-new.png"></a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-collapse-main">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://jesusgavalos.github.io/">Inicio</a></li>
-          <li><a href="#toabout">Acerca</a></li>
-          <li><a href="#toportfolio">Portafolio</a></li>
-          <li><a href="https://jesusgavalos.github.io/dailyimages">Daily Image</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div id="home">
-    <div class="landing-text">
-      <img src="img/fox-new.png" />
-      <h1>Jesús Avalos</h1>
-      <h3>Diseñador gráfico</h3>
-      <a href="#toportfolio" class="btn btn-default btn-lg">Portafolio</a>
-    </div>
-  </div>
-
-  <div id="toabout" class="padding">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="img/profile.jpg" />
+
+      <div class="container main-body">
+
+        <!-- Profile card start -->
+        <div id="pf-card" class="row align-items-center justify-content-center">
+          <div class="col-md-1 empty">
+          </div>
+          <div class="col-md-5 pf-pic">
+          </div>
+          <div class="col-md-5 pf-text">
+            <h2>Jesús Avalos</h2>
+            <p>Soy diseñador gráfico. Mi trabajo se basa principalmente en la creación de contenido audiovisual, (motion graphics, vídeos musicales y diseño para redes sociales en general), fotografía y desarrollo web front-end. Aficionado a la composición/producción músical y a observar el cielo y los astros.</p>
+            <div class="sn-icons">
+              <a href="https://www.behance.net/jesusgavalos" target="_blank" rel="noreferrer noopener"><i class="bi bi-behance sn-icon-setup"></i></a>
+              <a href="https://www.instagram.com/jesusgavalos/" target="_blank" rel="noreferrer noopen"><i class="bi bi-instagram sn-icon-setup"></i></a>
+              <a href="https://twitter.com/JesusGAvalos" target="_blank" rel="noreferrer noopener"><i class="bi bi-twitter sn-icon-setup"></i></a>
+            </div>
+          </div>
+          <div class="col-md-1 empty">
+          </div>
         </div>
-        <div class="col-sm-6 text-center">
-          <hr class="light" />
-          <h2>Acerca de mí</h2>
-          <hr class="light" />
-          <p class="lead">Mi nombre es Jesús Avalos. Soy estudiante de diseño gráfico en la Escuela de Artes Plásticas "Profesor Rubén Herrera". Mi trabajo se basa principalmente en fotografía, desarrollo web, ilustración y lettering. <br/><br/>También soy aficionado a la música y a observar el cielo y los astros.</p>
-          <br />
-          <br />
-          <hr class="light" />
-          <h3>Redes sociales</h3>
-            <hr class="light" />
-          <a href="https://www.facebook.com/JesusGAvalos" class="fa fa-facebook"></a>
-          <a href="https://www.instagram.com/jesusgavalos" class="fa fa-instagram"></a>
-          <a href="https://twitter.com/JesusGAvalos" class="fa fa-twitter"></a>
+        <!-- Profile card end -->
+
+        <hr />
+
+        <!-- Featured work start -->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 ft-text">
+            <h3>Proyectos destacados</h3>
+          </div>
         </div>
+
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-1 empty"></div>
+
+          <div class="col-md-5 d-flex justify-content-center ft-work-setup">
+            <div class="card ft-work-card">
+              <img src="img/rdlc-thumb-ft.png" alt="Reyes De La Calle portada" class="card-img-top">
+              <div class="card-body ft-work">
+                <h5 class="card-title">Reyes De La Calle</h5>
+                <p class="card-text">Proyecto musical diridigo por Karloz Alvarado. Producción del diseño publicitario y audiovisual.
+                <br/><br/></p>
+                <a href="https://www.behance.net/gallery/125229261/Reyes-De-La-Calle" target="_blank" rel="noreferrer noopener" class="btn btn-primary ft-button">Más información</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 d-flex justify-content-center ft-work-setup">
+            <div class="card ft-work-card">
+              <img src="img/mps-thumb-ft.png" alt="Minero Por Siempre portada" class="card-img-top">
+              <div class="card-body ft-work">
+                  <h5 class="card-title">Minero Por Siempre</h5>
+                <p class="card-text">Tercer proyecto musical diridigo por Karloz Alvarado. Producción musical, diseño publicitario y audiovisual.</p>
+                <a href="https://www.behance.net/gallery/136177297/Minero-Por-Siempre" target="_blank" rel="noreferrer noopener" class="btn btn-primary ft-button">Más información</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-1 empty"></div>
+        </div>
+        <!-- Featured work end -->
+
+        <hr/>
+
+        <!-- Gallery start -->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 gallery-text">
+            <h3>Galería</h3>
+          </div>
+        </div>
+
+        <div class="container">
+        <div class="row g-0">
+
+          <div class="col-4">
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto1.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto1.jpg" alt="Bee on sunflower">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus1.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus1.jpg" alt="Ink lettering psycho">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto2.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto2.jpg" alt="Tiger statue">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus2.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus2.jpg" alt="Ink pointillism space">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto3.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto3.jpg" alt="Close to Celemania, Coahuila">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus3.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus3.jpg" alt="Ink kikapoo skull">
+              </a>
+            </div>
+
+          </div>
+
+          <div class="col-4">
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto4.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto4.jpg" alt="Black and white headstock">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus4.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus4.jpg" alt="GADU Ink pointillism">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto5.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto5.jpg" alt="Thunder on Arteaga, Coahuila">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus5.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus5.jpg" alt="Luminous delta digital illustration">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto6.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto6.jpg" alt="Moon on Melchor Múzquiz, Coahuila">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus6.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus6.jpg" alt="Fox digital illustration">
+              </a>
+            </div>
+
+          </div>
+
+          <div class="col-4">
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto7.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto7.jpg" alt="Nightsky on Palaú, Coahuila">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus7.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus7.jpg" alt="Luminous delta sketch draw">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto8.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto8.jpg" alt="Nightsky and moon on Palaú, Coahuila">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus8.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus8.jpg" alt="Luminous delta concept digital illustration">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/foto9.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/foto9.jpg" alt="Cactus on a winter day on Arteaga, Coahuila ">
+              </a>
+            </div>
+
+            <div class="gallery-container">
+              <a href="img/gallery/ilus9.jpg" data-lightbox="roadtrip">
+                <img src="img/gallery/ilus9.jpg" alt="Mason's plumb ink illustration">
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+        </div>
+        <!-- Gallery end -->
+
+        <hr/>
+
+        <!-- Footer start -->
+        <footer>
+          <div class="row align-items-center">
+            <div class="col-12 footer-text">
+              <p>Copyright © 2022 Jesús Avalos ∴</p>
+            </div>
+          </div>
+        </footer>
+        <!-- Footer end -->
+
       </div>
+
     </div>
-  </div>
 
-  <div id="fixed">
-  </div>
+    <!-- Boostrap JS Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  <div id="toportfolio" class="padding-portfolio">
-    <div class="container">
-      <div class="row">
-        <hr class="light" />
-        <h1 class="text-center">Portafolio</h1>
-        <hr class="light" />
-        <div class="col-md-4 photos">
-          <a href="trabajos/foto/foto1.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto1.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus1.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus1.jpg" /></a>
-          <a href="trabajos/foto/foto2.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto2.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus2.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus2.jpg" /></a>
-          <a href="trabajos/foto/foto3.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto3.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus3.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus3.jpg" /></a>
-        </div>
-        <div class="col-md-4 photos">
-          <a href="trabajos/foto/foto4.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto4.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus4.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus4.jpg" /></a>
-          <a href="trabajos/foto/foto5.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto5.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus5.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus5.jpg" /></a>
-          <a href="trabajos/foto/foto6.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto6.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus6.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus6.jpg" /></a>
-        </div>
-        <div class="col-md-4 photos">
-          <a href="trabajos/foto/foto7.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto7.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus7.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus7.jpg" /></a>
-          <a href="trabajos/foto/foto8.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto8.jpg" /></a>
-          <a href="trabajos/ilustracion/ilus8.jpg" data-lightbox="roadtrip"><img src="trabajos/ilustracion/ilus8.jpg" /></a>
-          <a href="trabajos/foto/foto9.jpg" data-lightbox="roadtrip"><img src="trabajos/foto/foto9.jpg" /></a>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- Lightbox2 Script -->
+    <script src="lightbox-plus-jquery.js"></script>
 
-  <footer>
-	<div class="container-fluid footer">
-		<div class="row text-center">
-			<div class="col-12">
-				<hr class="light" />
-				<p>Copyright © 2021 Jesús Avalos. Powered by GitHub.</p>
-			</div>
-		</div>
-	</div>
-</footer>
+  </body>
 
-</body>
 </html>
