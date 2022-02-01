@@ -184,6 +184,11 @@ hr{
 }
 
 @media only screen and (max-width:767px){
+  .main-body{
+    margin-top:12px;
+    margin-bottom:12px;
+  }
+
   #pf-card, .pf-pic{
     margin-top:0 !important;
   }
