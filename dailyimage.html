@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="daily-image-styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Daily Image</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div class="col-md-12">
+          <p id="title">Daily Image</p>
+        </div>
+        <div class="col-md-12">
+          <p id="subtitle">For the peace, everybody.</p>
+        </div>
+      </div>
+      <div class="row image-holder">
+        <div class="col-md-12 text-center">
+          <div class="desktopbox">
+            <img src="https://picsum.photos/550/550/?random" alt="daily" class="desktop">
+          </div>
+          <div class="mediumbox">
+            <img src="https://picsum.photos/450/450/?random" alt="daily" class="medium">
+          </div>
+          <div class="smallbox">
+            <img src="https://picsum.photos/390/390/?random" alt="daily" class="small">
+          </div>
+          <div class="xsmallbox">
+            <img src="https://picsum.photos/290/290/?random" alt="daily" class="xsmall">
+          </div>
+        </div>
+      </div>
+      <div class="row button">
+        <div class="col-md-12 text-center">
+          <input class="randombutton" type="button" value="Another one!" onClick="window.location.reload()" />
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-md-12 text-center">
+          <p class="disclaimer">Photos provided by <a href="https://picsum.photos/">Lorem Picsum</a>.</p>
+          <p class="copyright"><a href="index.html">Jesús Avalos</a> © 2022.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
