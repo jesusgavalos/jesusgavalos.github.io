@@ -159,7 +159,6 @@ hr{
 }
 
 .more-links ul{
-  display:block;
   list-style-type:none;
   padding:0;
   margin:0;
@@ -167,6 +166,10 @@ hr{
 
 .more-links li{
   display:inline;
+}
+
+.more-links li:not(:first-child)::before{
+  content: " | ";
 }
 
 .more-links a{
