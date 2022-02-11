@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap');
+
+:root{
+  --fox-black:rgb(16, 24, 32);
+  --fox-red:rgb(125, 27, 73);
+  --fox-orange:rgb(182, 83, 62);
+  --fox-white:rgb(229, 225, 230);
+  --daily-blue:#00c2e4;
+}
+
+body{
+  background-color:var(--fox-black) !important;
+}
+
+.dailytitle{
+  text-align:center;
+  font-family:'Notable';
+  font-size:35px;
+  color:var(--daily-blue);
+  margin-top:5px;
+  margin-bottom:-3px;
+}
+
+.dailysubtitle{
+  text-align:center;
+  font-family:'Bitter';
+  font-size:25px;
+  color:var(--fox-white);
+  font-weight:700;
+  margin-bottom:6px;
+}
+
+.normalimgbox{
+  text-align:center;
+  height:450px;
+}
+
+.mediumimgbox{
+  text-align:center;
+  height:380px;
+  display:none;
+}
+
+.smallimgbox{
+  text-align:center;
+  height:320px;
+  display:none;
+}
+
+.xsmallimgbox{
+  text-align:center;
+  height:280px;
+  display:none;
+}
+
+.randombutton{
+  border:0;
+  border-radius:5px;
+  background-color:var(--daily-blue);
+  padding:5px 5px;
+  margin-top:15px;
+  font-family: 'Bitter';
+  font-weight:700;
+  font-size:13px;
+  color:var(--fox-white);
+  transition:background-color 0.2s;
+  -webkit-transition:background-color 0.2s;
+}
+
+.randombutton:hover{
+  background-color:#058196;
+  cursor:pointer;
+}
+
+.disclaimer{
+  color:var(--fox-white);
+  font-family: 'Bitter';
+  font-size:14px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom:0;
+}
+
+.disclaimer a{
+  text-decoration:none;
+  color:var(--fox-white);
+  transition:color 0.2s;
+  -webkit-transition:color 0.2s;
+}
+
+.disclaimer a:hover{
+  color:var(--daily-blue);
+}
+
+.copyright{
+  color:var(--fox-white);
+  font-family: 'Bitter';
+  font-size:14px;
+  font-weight: 700;
+}
+
+.copyright a{
+  color:var(--fox-white);
+  text-decoration:none;
+  transition:color 0.2s;
+  -webkit-transition:color 0.2s;
+}
+
+.copyright a:hover{
+  color:var(--daily-blue);
+}
+
+/* Media Queries Start */
+
+@media only screen and (max-width:425px){
+  .normalimgbox{
+    display:none;
+  }
+  .mediumimgbox{
+    display:block;
+  }
+}
+
+@media only screen and (max-width:375px){
+  .dailytitle{
+    font-size:30px;
+  }
+  .dailysubtitle{
+    font-size:20px;
+  }
+  .normalimgbox{
+    display:none;
+  }
+  .mediumimgbox{
+    display:none;
+  }
+  .smallimgbox{
+    display:block;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .dailytitle{
+    font-size:28px;
+  }
+  .dailysubtitle{
+    font-size:18px;
+  }
+  .normalimgbox{
+    display:none;
+  }
+  .mediumimgbox{
+    display:none;
+  }
+  .smallimgbox{
+    display:none;
+  }
+  .xsmallimgbox{
+    display:block;
+  }
+}
