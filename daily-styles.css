@@ -13,6 +13,10 @@ body{
   background-color:var(--fox-black) !important;
 }
 
+.container-fluid{
+  overflow:hidden;
+}
+
 .dailytitle{
   text-align:center;
   font-family:'Notable';
