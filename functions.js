@@ -16,7 +16,7 @@ function setVolume(newVolume) {
       }
 }
 
-setVolume(0.05);
+setVolume(0.10);
 
 // Boton para activar y desactivar musica de fondo
 button.addEventListener('click', function() {
