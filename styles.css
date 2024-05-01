@@ -117,12 +117,30 @@ body{
   font-family: 'Signika Negative', sans-serif;
   color:var(--fox-black);
   text-align: center;
-  padding-bottom:12px;
   font-size:11pt;
   font-weight: 300;
   font-style: italic;
   opacity: 0.5;
 
+}
+
+.audioButton{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 7px;
+  margin-right: 7px;
+  margin-top: -25px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, #101820 0%, #454545 100%);
+  border: none;
+}
+
+.audioButton i{
+  color:var(--fox-white);
+}
+
+.audioButton:hover{
+  background: linear-gradient(180deg, #b6533e 0%, #e87b66 100%);
 }
 
 @media (max-width: 767px) {
