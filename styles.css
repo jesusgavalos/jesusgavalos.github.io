@@ -113,6 +113,19 @@ body{
   cursor:pointer;
 }
 
+.sn-icons-setup-img{
+  width: 31.67px;
+  height: 33px;
+  filter: invert(7%) sepia(25%) saturate(832%) hue-rotate(169deg) brightness(100%) contrast(97%);
+  margin-top: -14px;
+}
+
+.sn-icons-setup-img:hover{
+  filter: invert(33%) sepia(22%) saturate(4375%) hue-rotate(342deg) brightness(95%) contrast(69%);
+  transition: filter 0.2s;
+  cursor: pointer;
+}
+
 .footer{
   font-family: 'Signika Negative', sans-serif;
   color:var(--fox-black);
